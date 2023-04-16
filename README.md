@@ -4,8 +4,10 @@ Name: Tharaka Kiriella
 Assignment: T1A2
 
 Portfolio link:
+https://github.com/tharaka-kiriella/TharakaKiriella_T1A2
 
 Github link:
+https://github.com/tharaka-kiriella/TharakaKiriella_T1A2
 https://github.com/tharaka-kiriella
 
 
