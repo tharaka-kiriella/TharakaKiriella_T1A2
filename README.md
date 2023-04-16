@@ -36,4 +36,4 @@ I have used the following technologies:
 - HTML
 - CSS
 - Github
-- Vercel for deployment of the portfolio.
+- Vercel for deployment of the portfolio.# TharakaKiriella_T1A2
