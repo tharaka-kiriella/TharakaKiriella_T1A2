@@ -4,7 +4,8 @@ Name: Tharaka Kiriella
 Assignment: T1A2
 
 Portfolio link:
-https://github.com/tharaka-kiriella/TharakaKiriella_T1A2
+https://tharaka-kiriella-t1-a2-final.vercel.app
+https://github.com/tharaka-kiriella/TharakaKiriella_T1A2.git
 
 Github link:
 https://github.com/tharaka-kiriella/TharakaKiriella_T1A2
