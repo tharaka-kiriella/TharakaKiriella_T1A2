@@ -1,0 +1,289 @@
+/* Global Wildcard specifications */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global body specifications */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Global Header Component */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1 1rem;
+    background-color: grey;
+    
+}
+
+/* Header specifications for all pages */
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* Adjustments to the header and navigation bar for all pages */
+
+header nav a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: rgb(9, 9, 9);
+    padding: 0.25rem;
+}
+
+/* Global Profile Picture specifications */
+#pfp {
+    width: 10%;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+
+/* Hero Image specifications */
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(172, 155, 255);
+}
+
+#hero img {
+    height: 20vh;
+    width: 100%;
+}
+
+#hero h1 {
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#hero p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Global Social hyperlink/image specifications */
+
+#socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem, 0;
+    background-color: grey;
+}
+
+#socials p {
+    font-size: 1rem;
+    color: white;
+    margin: 1rem;
+}
+
+#socials nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* Global Footer specifications */
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(172, 155, 255);
+}
+
+footer p {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+/* About Me Page Hero Image specifications */
+
+#abouthero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(172, 155, 255);
+}
+
+#abouthero img {
+    height: 20vh;
+    width: 100%;
+}
+
+#abouthero h1 {
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#abouthero p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* About Me Page Text specifications */
+
+main article.aboutmebody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(172, 155, 255);
+}
+
+main article.aboutmebody h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* Margins for subheadings, paragraphs and resume link */
+
+main article.aboutmebody h2 {
+    margin: 1rem 0;
+}
+
+main article.aboutmebody p {
+    margin: 1rem 0 3rem;
+}
+
+#contactinfo {
+    margin: 1rem;
+}
+
+/* Employment History Hero Image Specifications */
+
+/* Employment History Text Specifications */
+
+main article.employmentbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(172, 155, 255);
+}
+
+/* Employment History page heading styles */
+
+main article.employmentbody h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+main article.employmentbody h2 {
+    margin: 1rem 0;
+}
+
+/* Employment History page paragraph styles */
+main article.employmentbody p {
+    margin: 1rem 0 3rem;
+}
+
+
+/* Blog Page Hero Image Specifications */
+
+
+/* Blog Page Text Specifications. Also specs the text in the specific blog pages */
+#blog {
+    background-color: rgb(210, 210, 210);
+}
+
+main section.blogbox {
+    display: flex;
+    flex-direction: column;
+}
+
+main article.blogbody {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Blog subheading styles */
+main article.blogheading h2 {
+    text-align: center;
+    padding: 1.5rem 0 0.5rem;
+}
+main article.blogbody {
+    align-items: center;
+    padding: 2rem;
+    border: 4px solid black;
+    margin: 1rem;
+    background-color: rgb(172, 155, 255);
+}
+
+main article.blogbody h3 {
+    margin-bottom: 1rem;
+}
+
+main article.blogbody h4 {
+    padding: 0.5rem;
+}
+
+/* Blog anchor styles */
+main article.blogbody a {
+    padding: 1rem;
+}
+
+/* Blog paragraph styles */
+main article.blogbody p {
+    padding: 1rem;
+}
+
+/* Blog Page Image Specifications */
+
+main article.blogbody img {
+    margin: 1rem 0;
+}
+
+/* Tablet formatting */
+
+@media only screen and (min-width: 500px) {
+    header {
+        padding: 1rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    /* Adjusting the profile picture to fit tablets */
+    #pfp {
+        margin-top: 1rem;
+    }
+    /* Adjusting the header to fit tablets */
+    header nav {
+        padding: 0.5rem;
+        justify-content: right;
+        margin-right: 1rem;
+    }
+
+    main section.blogbox {
+        flex-direction: row;
+        flex: wrap;
+
+    }
+
+}
+
+/* Desktop formatting */
+@media only screen and (min-width: 900px) {
+    /* Adjusting padding for the top header and navigation bar to fit desktops */
+    header {
+        padding: 0.25rem;
+    }
+    /* Adjusting the profile picture to fit desktops */
+    #pfp {
+        width: 5%;
+    }
+}
